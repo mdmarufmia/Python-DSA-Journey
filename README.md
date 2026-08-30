@@ -15,7 +15,7 @@ The solutions are cleanly organized by DSA topics. Every file includes type hint
 
 ```
 
-## 📊 Core Concepts Mastered
+## Core Concepts Mastered
 
 - [ ] **Arrays & Hashing:** Two-Pointer approach, Sliding Window, Prefix Sum.
 - [ ] **Linked Lists:** Singly/Doubly Linked Lists, Fast & Slow Pointers.
@@ -25,7 +25,7 @@ The solutions are cleanly organized by DSA topics. Every file includes type hint
 
 ---
 
-## 🤖 Connection to AI/ML Engineering
+## Connection to AI/ML Engineering
 Algorithm optimization is the backbone of Machine Learning. Writing efficient algorithms directly prepares me to:
 1. Optimize large-scale data manipulation pipelines.
 2. Understand matrix multiplications and vector spaces under the hood.
