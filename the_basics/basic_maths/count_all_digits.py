@@ -30,3 +30,16 @@ for d in str(num):
 
 print(count)
 
+#Or
+import math
+num = int(input("Enter Number:"))
+count = int(math.log10(num) + 1)
+print(count)
+
+
+#Or
+num = int(input("Enter Number:"))
+count = len(str(num))
+print(count)
+
+
