@@ -48,7 +48,7 @@ for i in range(1,n+1):
 print("-----------")
 
 
-#Case -06 (Inverted Triangle) (Space & number printing)
+#Case -06 (Inverted Triangle-Lower left) (Space & number printing)
 n = 4 
 for i in range(n):
     for j in range(i):
@@ -59,7 +59,21 @@ for i in range(n):
 print("-----------")
 
 
-#Case -07 (Inverted Triangle) (Space & Character printing)
+#Case -07 (Inverted Triangle-Upper Left) 
+n = 4
+
+for i in range(1,n+1):
+    for j in range(n-i):
+        print(" ",end=" ")
+    num = 1
+    for j in range(1,i+1):
+        print(num,end=" ")
+        num+=1
+    print()
+print("-----------")
+
+
+#Case -08 (Inverted Triangle) (Space & Character printing)
 n = 4
 char = 65
 for i in range(n):
@@ -70,4 +84,3 @@ for i in range(n):
     char +=1
     print()
 print("-----------")
-
