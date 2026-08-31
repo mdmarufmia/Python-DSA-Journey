@@ -1,6 +1,6 @@
-#Q-01: how you can extract the digits from the user and print them?
+#Q-01: How can you extract the digits from the user and print them?
 
-#Using Mathematical Method
+# Using a mathematical method
 num = int(input("Enter Number:"))
 digits =[]
 
@@ -11,7 +11,7 @@ while num>0:
 digits.reverse()
 print(digits)
 
-#Using List Comprehension method
+# Using list comprehension method
 num = int(input("Enter Number:"))
 digits = [int(d) for d in str(num)]
 print(digits)
