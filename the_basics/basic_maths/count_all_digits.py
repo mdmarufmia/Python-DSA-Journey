@@ -33,7 +33,7 @@ print(count)
 #Or
 import math
 num = int(input("Enter Number:"))
-count = int(math.log10(num) + 1)
+count = int(math.log10(num) + 1) if num>0 else 1
 print(count)
 
 
