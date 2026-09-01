@@ -20,3 +20,10 @@ def gcd_recursive(a, b):
 
 print("GCD:", gcd_recursive(48, 18))  
 
+
+#Formula LCM= (a*b)/gcd
+def lcm_formula(a,b):
+    lcm = int((a*b)/gcd_iterative(a,b))
+    return lcm
+
+print("LCM: ", lcm_formula(48,18))
